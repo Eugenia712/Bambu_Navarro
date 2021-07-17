@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logoImg{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    overflow: hidden;
+         display: inline-block;
+}
+.logo{
+    background-color: #0FA2C7;
+    padding: 20px;
+
+    
+
+}
+h1{color:#37FF8B; 
+    background:#0FA2C7 ;
+    font-family: 'Kirang Haerang', cursive;
+    font-weight: bold;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+
+    font-size: 50px;
+    text-align: center;
+    padding: 20px; 
+    border: 3px;
+    display: inline;
+
+    
+}
+nav{ 
+    color: #533A71;
+    background-color: #B2AA8E;
+     font-family: 'Indie Flower', cursive;
+     border: 50px;
+     height: 75px;
+     width: 100%;
+     
+    }
+    ul{
+        list-style-type: none;
+        overflow: hidden;
+        float: right;
+        padding: 5px;
+    }
+
+    li{ display: inline-block;
+        padding: 8px;
+        border: dashed #0fa2c7;
+        margin: 5px;}
+
+    a{text-decoration: none;
+    }
+   
+ #display{
+        border:30px;
+        padding: 20px;
+        background-color: #B2AA8E;
+        border-top: solid 5px #533A71 ;
+    border-right: solid 10px #533A71 ;
+    border-bottom:solid 7px #533A71;
+    border-left: solid 12px #533A71}
+
+    .displayImg{
+    width: 100%;
+    height: 15.625rem;
+    padding: 5px;
+margin: 5px;
+border: solid 5px  grey;
+
+}
+
+
+        
+
+.italica{ 
+    font-style: italic; 
+    font-family: 'Kirang Haerang', cursive;}
+
+.parrafo{
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    letter-spacing: 3px;
+    word-spacing: 20px;
+    line-height: 30px;
+    text-align: justify;
+    color: #533A71;
+    background-color: #B2AA8E;
+    height: 100px;
+    width: 230px;
+    overflow: auto}
+
+   
+
+br{color:#37FF8B; 
+    background: black}
+
+
+.amarillo
+    {   color:#a79f84 ;
+        background-color: #533A71;
+       font-family: 'Kirang Haerang', cursive}
+
+.black{background-color: black;}
+
+#novedades{
+    color:#a79f84 ;
+    background-color: #533A71;
+   font-family: 'Kirang Haerang', cursive; 
+   font-size: 30px;        
+    padding: 5px;
+    margin: 0px;
+
+}
+
+.flex-novedades{
+         display: flex;
+         color:#a79f84 ;
+        background-color: #533A71;
+       font-family: 'Kirang Haerang', cursive; 
+       font-size: medium;        
+        padding: 5px;
+        margin: 0px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;}
+
+.flex-novedades div{
+    background-color: #892dad;
+    padding: 3px;
+    margin: 02px;
+}
+ 
+
+.libros{
+        width: 225px;
+        padding: 3px;
+        margin: 0px;
+        display: inline-block;
+        
+}
+
+
+footer{
+    font-family: 'Kirang Haerang', cursive;
+    color:#37FF8B; 
+    background:#0FA2C7;
+   
+    clear: none;
+
+   }
+
+h2{
+    color: blue;
+background-color: rgb(231, 241, 241);
+font-family: 'Kirang Haerang', cursive;}
+
+h3{
+    color:#37FF8B; 
+    background:#0FA2C7; 
+    font-family: 'Kirang Haerang', cursive;}
+
+.imgChica{
+    height: 350px;
+    padding: 15px;
+margin: 5px;}
+
+/*css de quiénes somos?*/
+
+.presentacion{
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+    letter-spacing: 3px;
+    word-spacing: 20px;
+    line-height: 30px;
+    text-align: justify;
+    color: #533A71;
+    background-color: #B2AA8E;
+        width: 67%;
+        overflow: hidden;
+         display: inline-block;
+        padding: 5px;
+               border: solid 5px #533A71;
+    }
+
+.imgMedia{ 
+    width: 30%;
+    height: 500px;
+    padding: 5px;
+border: solid 5px grey;
+overflow: hidden;
+        float: left;
+}
+
+    
+
+
+table{color: #FFFFC7;background-color: #2D93AD;}
+
+/*desde aca empieza el css de Juegos_Didacticos*/
+
+.grid-conteiner{
+    display: grid;
+    background: #0FA2C7;
+    height: 25rem;    
+    width: 25rem;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto auto ;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
+    .grid-conteiner div{
+        background: #533A71;
+        text-align: center;
+        color: white;
+        border: 1px solid grey;
+        height: 25rem;
+        width: 23.647rem;
+           }
+h4{
+    color:#37FF8B; 
+    background:#0FA2C7; 
+    font-family: 'Kirang Haerang', cursive;
+    font-size: 1.5rem;
+
+}
